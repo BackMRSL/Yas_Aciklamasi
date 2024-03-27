@@ -1,0 +1,26 @@
+Console.WriteLine("Yaşınız Kaç?");
+            int yaş = int.Parse(Console.ReadLine());
+            if (yaş <= 18)
+                Console.WriteLine("Çocuksunuz.");
+
+            else if (yaş == 18)
+                Console.WriteLine("Ergensiniz.");
+
+            else if (yaş == 27)
+                Console.WriteLine("Gençsiniz.");
+
+            else if (yaş == 40)
+                Console.WriteLine("Orta Yşlardasınız.");
+
+            else if (yaş == 50)
+                Console.WriteLine("Son Nefeslerinizi Atıyor Olbilirsiniz.");
+
+            else if (yaş == 80)
+                Console.WriteLine("Ölmüş Olabilirsiniz.");
+
+            else if (yaş == 100)
+                Console.WriteLine("Wow. Çok Yaşlısın.");
+             
+             
+            
+NOT: BU KODU 'VISUAL STUDIO' ADLI UYGULAMADA AÇINIZ.
